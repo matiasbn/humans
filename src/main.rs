@@ -27,7 +27,7 @@ fn main() {
             human.name, human.age, human.gender
         );
     }
-    for letter in matias.name.as_bytes().iter() {
-        println!("{}", *letter as char)
+    for letter in matias.name.chars() {
+        println!("{}", letter as char)
     }
 }
