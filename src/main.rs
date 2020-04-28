@@ -21,6 +21,7 @@ fn main() {
         age: 11231,
         gender: Gender::Male,
     };
+    let humans = [matias, rosalis];
     println!(
         "{} has {} years old, gender:{:?}",
         matias.name, matias.age, matias.gender
