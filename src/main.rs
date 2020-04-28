@@ -28,6 +28,6 @@ fn main() {
         );
     }
     for letter in matias.name.chars() {
-        println!("{}", letter as char)
+        println!("{}", letter)
     }
 }
