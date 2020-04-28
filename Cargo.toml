@@ -1,5 +1,5 @@
 [package]
-name = "enum_test"
+name = "humans"
 version = "0.1.0"
 authors = ["Matías Barrios <matias.barriosn@gmail.com>"]
 edition = "2018"
