@@ -22,12 +22,10 @@ fn main() {
         gender: Gender::Male,
     };
     let humans = [&matias, &rosalis];
-    println!(
-        "{} has {} years old, gender:{:?}",
-        matias.name, matias.age, matias.gender
-    );
-    println!(
-        "{} has {} years old, gender:{:?}",
-        rosalis.name, rosalis.age, rosalis.gender
-    );
+    for human in humans.iter() {
+        println!(
+            "{} has {} years old, gender:{:?}",
+            human.name, human.age, human.gender
+        );
+    }
 }
