@@ -21,8 +21,7 @@ fn main() {
         age: 11231,
         gender: Gender::Male,
     };
-    let humans = [&matias, &rosalis];
-    for human in humans.iter() {
+    for human in [&matias, &rosalis].iter() {
         println!(
             "{} has {} years old, gender:{:?}",
             human.name, human.age, human.gender
